@@ -7,8 +7,14 @@ const Faq = () => {
     <Wrapper>
       <h3>Freaquently Asked Questions</h3>
       <div className='faq-list'>
-        {faqList.map((item) => {
-          return <FaqItem question={item.question} answer={item.answer} />;
+        {faqList.map((item, index) => {
+          return (
+            <FaqItem
+              key={index}
+              question={item.question}
+              answer={item.answer}
+            />
+          );
         })}
       </div>
     </Wrapper>

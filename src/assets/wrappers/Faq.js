@@ -14,11 +14,17 @@ const Wrapper = styled.section`
     border-radius: 16px;
   }
   .faq-header {
+    cursor: pointer;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
   .faq-answer {
+    display: flex;
+    margin-top: 16px;
+    transition: all 0.3s ease-in;
+  }
+  .hide {
     display: none;
   }
 `;
