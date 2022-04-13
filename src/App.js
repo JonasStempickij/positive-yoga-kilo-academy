@@ -1,10 +1,10 @@
-import { FaqQuestion } from './components';
+import Faq from './pages/Faq';
 
 function App() {
   return (
-    <div>
-      <FaqQuestion />
-    </div>
+    <>
+      <Faq />
+    </>
   );
 }
 
