@@ -43,6 +43,7 @@ const SuccessStories = () => {
           next
         </button>
       </div>
+      <button className='btn'>Get my plan</button>
     </Wrapper>
   );
 };

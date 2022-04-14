@@ -1,7 +1,7 @@
 * {
   padding: 0;
   margin: 0;
-  outline: 1px red solid;
+  /* outline: 1px red solid; */ 
 }
 
 h1,h2,h3{
@@ -12,6 +12,7 @@ h1{
   font-size: 28px;
   line-height: 36px;
   font-weight: 800px;
+  margin-bottom: 24px;
 }
 h2 {
   font-size: 24px;
@@ -28,6 +29,7 @@ h5 {
   line-height: 20px;
   font-weight: 600;
 }
+
 
 .paragraph-regular{
   font-size: 16px;
@@ -57,10 +59,16 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+article{
+  margin-bottom: 40px;
+}
+
 header {
   display: flex;
+  margin-bottom: 16px;
   padding: 14px 0px;
   justify-content: center;
+  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.08);
 
 }
 
@@ -72,11 +80,18 @@ code {
 img {
   display: block;
 }
-
+.content {
+  padding: 0px 16px
+}
+.ordered {
+  margin-bottom: 8px;
+}
 
 .btn {
   display: block;
   color: white;
+  font-family: inherit;
+  font-weight: 700;
   background-color: #ff9b4e;
   border-radius: 8px;
   border: none;
@@ -86,7 +101,12 @@ img {
 }
 
 @media screen and (min-width: 900px) {
+  h1{
+    margin-bottom: 32px;
+  }
   header{
-    padding: 20pxd;
+    margin-bottom: 48px;
+    padding: 20px;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.04);
   }
 }

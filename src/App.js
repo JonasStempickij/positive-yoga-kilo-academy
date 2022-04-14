@@ -12,16 +12,18 @@ function App() {
       <header>
         <img src={logo} alt='logo' />
       </header>
-      <p>
-        Over <b>52 147</b> plans ordered.
-      </p>
-      <h1>Get access to your yoga program now!</h1>
-      <YogaPlan />
-      <SuccessStories />
-      <YogaForYou />
-      <Faq />
-      <h2>Start your yoga program today! </h2>
-      <YogaPlan />
+      <div className='content'>
+        <p className='ordered'>
+          Over <b>52 147</b> plans ordered.
+        </p>
+        <h1>Get access to your yoga program now!</h1>
+        <YogaPlan />
+        <SuccessStories />
+        <YogaForYou />
+        <Faq />
+        <h2>Start your yoga program today! </h2>
+        <YogaPlan />
+      </div>
     </>
   );
 }
