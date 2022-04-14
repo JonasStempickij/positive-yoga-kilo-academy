@@ -41,6 +41,7 @@ const Wrapper = styled.article`
     background-color: #ffe082;
     padding: 3px 8px;
     border-radius: 6px;
+    font-weight: 700;
   }
   .plan-monthly {
     display: flex;
@@ -59,6 +60,7 @@ const Wrapper = styled.article`
   .highlight {
     color: #ff9b4e;
   }
+
   .feature-list {
     display: flex;
     flex-direction: column;

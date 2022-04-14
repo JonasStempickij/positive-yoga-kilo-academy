@@ -8,7 +8,7 @@ const FaqItem = ({ question, answer }) => {
   return (
     <div className='faq-item'>
       <div className='faq-header' onClick={() => setShow(!show)}>
-        <div className='faq-question'>{question}</div>
+        <h5>{question}</h5>
         <img src={expandMore} alt='expand more' />
       </div>
       <div className={show ? 'faq-answer' : 'hide'}>{answer}</div>

@@ -44,10 +44,14 @@ const YogaPlan = () => {
           period.
         </p>
         <p className='caption-mobile'>
-          By choosing a payment method you agree to the <a>T&Cs</a> and{' '}
-          <a>Privacy Policy</a>
+          By choosing a payment method you agree to the <a href='#'>T&Cs</a> and{' '}
+          <a href='#'>Privacy Policy</a>
         </p>
-        <img src={payment} alt='guaranteed safe checkout' />
+        <img
+          src={payment}
+          alt='guaranteed safe checkout'
+          className='safe-checkout'
+        />
       </section>
       <section>
         <h3>What's in my program?</h3>
