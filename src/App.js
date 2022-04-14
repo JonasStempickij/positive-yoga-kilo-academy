@@ -1,4 +1,5 @@
 import logo from './assets/images/Logo.svg';
+import StickyDiscount from './components/StickyDiscount';
 import Faq from './pages/Faq';
 import SuccessStories from './pages/SuccessStories';
 import YogaForYou from './pages/YogaForYou';
@@ -7,6 +8,7 @@ import YogaPlan from './pages/YogaPlan';
 function App() {
   return (
     <>
+      <StickyDiscount />
       <header>
         <img src={logo} alt='logo' />
       </header>
