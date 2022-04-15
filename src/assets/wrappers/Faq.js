@@ -1,6 +1,9 @@
 import styled from 'styled-components';
 
-const Wrapper = styled.section`
+const Wrapper = styled.article`
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
   .faq-list {
     display: flex;
     flex-direction: column;
