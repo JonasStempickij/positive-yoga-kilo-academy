@@ -1,6 +1,9 @@
 import styled from 'styled-components';
 
 const Wrapper = styled.article`
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
   section {
     display: flex;
     flex-direction: column;
