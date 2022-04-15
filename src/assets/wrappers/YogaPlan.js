@@ -19,6 +19,7 @@ const Wrapper = styled.article`
     row-gap: 8px;
   }
   .plan-option {
+    cursor: pointer;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -65,7 +66,11 @@ const Wrapper = styled.article`
     color: #ff9b4e;
   }
   .link {
+    cursor: pointer;
     color: #abcce9;
+  }
+  .link:hover {
+    text-decoration: underline;
   }
 
   .feature-list {

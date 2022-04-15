@@ -33,6 +33,7 @@ const Wrapper = styled.article`
   .phone-two {
     margin-top: 33px;
   }
+
   @media screen and (min-width: 1000px) {
     section {
       align-items: center;

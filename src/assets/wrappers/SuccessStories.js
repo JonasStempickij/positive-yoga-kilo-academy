@@ -5,11 +5,15 @@ const Wrapper = styled.article`
   flex-direction: column;
   row-gap: 24px;
 
-  section {
+  .story {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    padding: 16px;
+    box-shadow: 0px 16px 32px rgba(57, 53, 60, 0.08);
     row-gap: 18px;
+    max-width: 352px;
+    min-height: 607px;
   }
   .stars {
     display: flex;
@@ -21,7 +25,13 @@ const Wrapper = styled.article`
   .btn-control {
     display: flex;
     flex-direction: row;
+    column-gap: 16px;
     align-self: center;
+  }
+
+  .btn-carousel {
+    background-color: white;
+    border: none;
   }
   @media screen and (min-width: 1000px) {
     display: flex;
@@ -35,7 +45,6 @@ const Wrapper = styled.article`
     .story {
       display: flex;
       align-items: flex-start;
-      max-width: 352px;
     }
     .btn-control {
       display: none;

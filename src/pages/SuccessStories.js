@@ -2,6 +2,8 @@ import { useState, useEffect } from 'react';
 import testimonials from '../assets/data/testimonials';
 import Story from '../components/Story';
 import Wrapper from '../assets/wrappers/SuccessStories';
+import arrowBack from '../assets/icon/arrow_back.png';
+import arrowForward from '../assets/icon/arrow_forward.png';
 
 const SuccessStories = () => {
   const [activeStory, setActiveStory] = useState([true, false, false]);
@@ -36,11 +38,11 @@ const SuccessStories = () => {
         })}
       </div>
       <div className='btn-control'>
-        <button className='btn' onClick={() => handleClick(-1)}>
-          prev
+        <button className='btn-carousel' onClick={() => handleClick(-1)}>
+          <img src={arrowBack} alt='arrow back' />
         </button>
-        <button className='btn' onClick={() => handleClick(1)}>
-          next
+        <button className='btn-carousel' onClick={() => handleClick(1)}>
+          <img src={arrowForward} alt='arrow forward' />
         </button>
       </div>
       <button className='btn'>Get my plan</button>
