@@ -4,7 +4,7 @@ import Stars from './Stars';
 const Story = ({ story, activeStory }) => {
   const { nameAndAge, city, img, text } = story;
   return (
-    <section className={activeStory ? '' : 'hide'}>
+    <section className={activeStory ? 'story' : 'story hide'}>
       <div className='title'>
         <h5>{nameAndAge}</h5>
         <p className='caption-mobile'>{city}</p>

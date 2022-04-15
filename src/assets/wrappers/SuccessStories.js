@@ -23,6 +23,27 @@ const Wrapper = styled.article`
     flex-direction: row;
     align-self: center;
   }
+  @media screen and (min-width: 1000px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .success-stories {
+      display: flex;
+      flex-direction: row;
+      column-gap: 16px;
+    }
+    .story {
+      display: flex;
+      align-items: flex-start;
+      max-width: 352px;
+    }
+    .btn-control {
+      display: none;
+    }
+    .hide {
+      display: inherit;
+    }
+  }
 `;
 
 export default Wrapper;

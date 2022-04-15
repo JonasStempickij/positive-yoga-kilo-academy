@@ -4,7 +4,11 @@ const Wrapper = styled.article`
   display: flex;
   flex-direction: column;
   row-gap: 40px;
+  h2 {
+    margin: 0;
+  }
   section {
+    max-width: 352px;
     display: flex;
     flex-direction: column;
     row-gap: 16px;
@@ -71,6 +75,12 @@ const Wrapper = styled.article`
     flex-direction: row;
     column-gap: 16px;
     align-items: flex-start;
+  }
+  @media screen and (min-width: 800px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 32px;
   }
 `;
 

@@ -30,6 +30,12 @@ const Wrapper = styled.article`
   .hide {
     display: none;
   }
+  @media screen and (min-width: 1000px) {
+    align-items: center;
+    .faq-list {
+      width: 736px;
+    }
+  }
 `;
 
 export default Wrapper;
