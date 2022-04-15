@@ -12,7 +12,7 @@ const Story = ({ story, activeStory }) => {
       <div className='stars'>
         <Stars />
       </div>
-      <img src={img} alt='image' />
+      <img src={img} alt='star' />
       <p className='paragraph-regular'>{text}</p>
     </section>
   );

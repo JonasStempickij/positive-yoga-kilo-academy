@@ -44,8 +44,9 @@ const YogaPlan = () => {
           period.
         </p>
         <p className='caption-mobile'>
-          By choosing a payment method you agree to the <a href='#'>T&Cs</a> and{' '}
-          <a href='#'>Privacy Policy</a>
+          By choosing a payment method you agree to the{' '}
+          <span className='link'>T&Cs</span> and{' '}
+          <span className='link'>Privacy Policy</span>
         </p>
         <img
           src={payment}

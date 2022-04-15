@@ -64,6 +64,9 @@ const Wrapper = styled.article`
   .highlight {
     color: #ff9b4e;
   }
+  .link {
+    color: #abcce9;
+  }
 
   .feature-list {
     display: flex;
