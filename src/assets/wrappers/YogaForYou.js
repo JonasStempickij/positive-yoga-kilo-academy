@@ -28,6 +28,7 @@ const Wrapper = styled.article`
   }
   .phone-one {
     margin-bottom: 33px;
+    filter: drop-shadow(0px 2.33429px 18.6743px rgba(0, 0, 0, 0.16));
   }
   .phone-two {
     margin-top: 33px;
