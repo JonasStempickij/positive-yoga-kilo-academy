@@ -35,6 +35,10 @@ const Wrapper = styled.article`
   }
 
   @media screen and (min-width: 1000px) {
+    display: flex;
+    flex-direction: row-reverse;
+    column-gap: 33px;
+    justify-content: center;
     section {
       align-items: center;
     }
